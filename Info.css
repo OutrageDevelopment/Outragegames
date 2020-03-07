@@ -1,0 +1,52 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+
+  #mainContent {
+    display: inline-flex;
+  }
+  
+  #footer {
+    background-color: black;
+    position: absolute;
+    bottom: -1%;
+    width: 100%;
+    height: 3rem;            /* Footer height */
+    
+  }
+
+  #footer p
+  {
+    color: white;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+  #badge{
+    margin-left: -2px;
+  }
+
+  .abovefooter {position: relative; left:50%; margin-left:-20px; bottom: -840px;  z-index:10;}
+
+  .forindex{position: relative; left:50%; bottom: -300px; z-index:10;}
+  
+  .neon {margin-bottom:-4.5%; margin-right: 0.5%;}
+
+.privacybox{border: 2px solid black; bottom: -200px; position: relative; box-sizing: border-box; width: 50%; left: 25%;}
+
+.p{border: 2px solid black; bottom: -515px; position: relative; z-index:10; box-sizing: border-box;
+    width: 50%; left: 25%;}
+
+.separate{width: 50%; margin: 0px auto; border-top: 4px solid black; }    
+
+.bottombored{border-bottom: 2px solid black; margin: 0; width: 50%;}    

@@ -1,6 +1,11 @@
 #page-container {
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
+  }
+
+  #private-container{
+    position: relative;
+    min-height: 25vh;
   }
 
   #content-wrap {
@@ -29,24 +34,31 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 75%;
   }
 
   #badge{
     margin-left: -2px;
   }
 
-  .abovefooter {position: relative; left:50%; margin-left:-20px; bottom: -840px;  z-index:10;}
+  .abovefooter {position: relative; left:50%; margin-left:-20px; bottom: -550px;  z-index:10;}
 
-  .forindex{position: relative; left:50%; bottom: -300px; z-index:10;}
+  .forindex{position: relative; left:45%; bottom: -78px; z-index:10;}
   
-  .neon {margin-bottom:-4.5%; margin-right: 0.5%;}
+  .neon {margin-bottom:-9.5%; margin-right: 0.5%;}
 
-.privacybox{border: 2px solid black; bottom: -200px; position: relative; box-sizing: border-box; width: 50%; left: 25%;}
+  .pagesize {
+    width: 100%;
+    max-width: 675px; /* or whatever width you want */
+    margin-left: auto;
+    margin-right: auto;
+}
 
-.p{border: 2px solid black; bottom: -515px; position: relative; z-index:10; box-sizing: border-box;
-    width: 50%; left: 25%;}
+.privacybox{border: 2px solid black; bottom: -10px; position: relative; box-sizing: border-box; width: 100%; left: 0%;}
 
-.separate{width: 50%; margin: 0px auto; border-top: 4px solid black; }    
+.p{border: 2px solid black; bottom: -210px; position: relative; z-index:10; box-sizing: border-box;
+    width: 60%; left: 20%;}
+
+.separate{width: 70%; margin: 0px auto; border-top: 4px solid black; }    
 
 .bottombored{border-bottom: 2px solid black; margin: 0; width: 50%;}    

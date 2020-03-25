@@ -47,19 +47,15 @@
     width: 75%;
   }
 
-#badge{
-    margin-left: -2px;
-  }
+#badge{ margin-left: -2px; }
 
-#neontitle{display: block; font-size: 11px;  padding-right: 350px;}
+#neontitle{display: block; font-size: 11px;  margin-right: 44%;}
 
 .abovefooter {position: relative; bottom: -130px;  z-index:10;}
 
 .forindex{position: relative; left:45%; bottom: -78px; z-index:10;}
   
 .neon {margin-bottom:-8%; margin-right: 0.5%;}
-
-  
 
 .privacybox{border: 2px solid black; bottom: -10px; position: relative; box-sizing: border-box; width: 100%; left: 0%;}
 

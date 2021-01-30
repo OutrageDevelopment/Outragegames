@@ -53,6 +53,8 @@
 
 #minititle{display: block; font-size: 11px;  margin-right: 45%;}
 
+#stairstitle{display: block; font-size: 12px;  margin-right: 46%;}
+
 .abovefooter {position: relative; bottom: -130px;  z-index:10;}
 
 .forindex{position: relative; left:45%; bottom: -78px; z-index:10;}

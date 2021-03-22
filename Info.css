@@ -53,7 +53,7 @@
 
 #minititle{display: block; font-size: 11px;  margin-right: 45%;}
 
-#stairstitle{display: block; font-size: 12px;  margin-right: 46%;}
+#stairstitle{display: block; font-size: 12px;  margin-right: 47%;}
 
 .abovefooter {position: relative; bottom: -130px;  z-index:10;}
 
@@ -64,8 +64,8 @@
 .privacybox{border: 2px solid black; bottom: -10px; position: relative; box-sizing: border-box; width: 100%; left: 0%;}
 
 .p{border: 2px solid black; padding-bottom: -75px; position: relative; z-index:10; box-sizing: border-box;
-    width: 70%; left: 15%;}
+    width: 58%; left: 21%;}
 
-.separate{width: 70%; margin: 0px auto; border-top: 4px solid black; }    
+.separate{width: 60%; margin: 0px auto; border-top: 4px solid black; }    
 
 .bottombored{border-bottom: 2px solid black; margin: 0; width: 50%}    

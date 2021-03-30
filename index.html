@@ -42,36 +42,42 @@
                               <div id="neontitle">
                                    <span><strong>NEON DOTS</strong></span> 
                               </div>
-                              <div class="centertoggle"><button id="Read" onclick="Read()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div>
+                              <div class="centertoggle"><button id="neonMore" onclick="ForNeon()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div>
                               <br><div id ="Commercial" style="display: none;"> <video id="video" width="320" controls autoplay loop src="Videos/Commercial.mp4"></video></div>
-                              <div class="centertoggle"><button id="Less" onclick="Read()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>
+                              <div class="centertoggle"><button id="neonLess" onclick="ForNeon()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>
 
                               <script>
                                 
-                                function Read()
+                                function ForNeon()
                                 {
-                                  var x = document.getElementById("Commercial");
-                                  var l = document.getElementById("Mini Launch Commercial");
+                                  var neoncom = document.getElementById("Commercial");
+                                  var minicom = document.getElementById("Mini Launch Commercial");
                                   var vid = document.getElementById("video");
-                                  var more = document.getElementById("Read");
-                                  var less = document.getElementById("Less");
-                                  var more2 = document.getElementById("Launch");
-                                  var less2 = document.getElementById("Lesss");
-                                    if(x.style.display === "none")
+                                  var neonmore = document.getElementById("neonMore");
+                                  var neonless = document.getElementById("neonLess");
+                                  var minimore = document.getElementById("Launch");
+                                  var miniless = document.getElementById("miniLess");
+                                  var upmore = document.getElementById("upMore");
+                                  var upless = document.getElementById("upLess");
+                                  var upcom = document.getElementById("Demo");
+                                    if(neoncom.style.display === "none")
                                     {
-                                      x.style.display = "block";
-                                      more.style.display = "none";
-                                      less.style.display = "block";
+                                      neoncom.style.display = "block";
+                                      neonmore.style.display = "none";
+                                      neonless.style.display = "block";
                                       vid.play();
-                                      l.style.display = "none";
-                                      more2.style.display = "block";
-                                      less2.style.display = "none";
+                                      minicom.style.display = "none";
+                                      minimore.style.display = "block";
+                                      miniless.style.display = "none";
+                                      upcom.style.display = "none";
+                                      upmore.style.display = "block";
+                                      upless.style.display = "none";
                                     }
                                     else
                                     {
-                                      x.style.display = "none";
-                                      more.style.display = "block";
-                                      less.style.display = "none";
+                                      neoncom.style.display = "none";
+                                      neonmore.style.display = "block";
+                                      neonless.style.display = "none";
                                       vid.pause();
                                     }
                                 }
@@ -90,33 +96,38 @@
                               </div>  
                               <div class="centertoggle"><button id="Launch" onclick="Launch()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br>
                               <div id ="Mini Launch Commercial" style="display: none;"> <video id="minivideo" width="200" controls autoplay loop src="Videos/Mini Launch Commercial 2.mp4"></video></div>
-                              <div class="centertoggle" ><button id="Lesss" onclick="Launch()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>
+                              <div class="centertoggle" ><button id="miniLess" onclick="Launch()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>
                               <script>
-                                
                                 function Launch()
                                 {
-                                  var x = document.getElementById("Mini Launch Commercial");
-                                  var n = document.getElementById("Commercial");
+                                  var minicom = document.getElementById("Mini Launch Commercial");
+                                  var neoncom = document.getElementById("Commercial");
                                   var vid = document.getElementById("minivideo");
-                                  var more = document.getElementById("Launch");
-                                  var less = document.getElementById("Lesss");
-                                  var more2 = document.getElementById("Read");
-                                  var less2 = document.getElementById("Less");
-                                    if(x.style.display === "none")
+                                  var minimore = document.getElementById("Launch");
+                                  var miniless = document.getElementById("miniLess");
+                                  var neonmore = document.getElementById("neonMore");
+                                  var neonless = document.getElementById("neonLess");
+                                  var upmore = document.getElementById("upMore");
+                                  var upless = document.getElementById("upLess");
+                                  var upcom = document.getElementById("Demo");
+                                    if(minicom.style.display === "none")
                                     {
-                                      x.style.display = "block";
-                                      more.style.display = "none";
-                                      less.style.display = "block";
+                                      minicom.style.display = "block";
+                                      minimore.style.display = "none";
+                                      miniless.style.display = "block";
                                       vid.play();
-                                      n.style.display = "none";
-                                      more2.style.display = "block";
-                                      less2.style.display = "none";
+                                      neoncom.style.display = "none";
+                                      neonmore.style.display = "block";
+                                      neonless.style.display = "none";
+                                      upcom.style.display = "none";
+                                      upmore.style.display = "block";
+                                      upless.style.display = "none";
                                     }
                                     else
                                     {
-                                      x.style.display = "none";
-                                      more.style.display = "block";
-                                      less.style.display = "none";
+                                      minicom.style.display = "none";
+                                      minimore.style.display = "block";
+                                      miniless.style.display = "none";
                                       vid.pause();
                                     }
                                 }
@@ -128,17 +139,55 @@
                             <p class="separate"></p><br>
 
                             <div style="text-align: center">
-                            <img src="Imgs/Up-Stairs Icon (Website).png" width="83" height="83" class="neon"/> Stairway to heaven or a knockout? Make your way up the <br>stairs without contact.<br> <br>
-                            *COMING SOON*
-                            <br> <br>
-                            <!--<img id="Badge" src="Imgs/Apple Badge.png"  width="130" height="40"/> <img src="Imgs/Google Play Badge.png" width="130" height="40"/> -->
+                            <img src="Imgs/Up-Stairs Icon (Website).png" width="83" height="83" class="neon"/> Stairway to heaven or a knockout? Make your way up the <br>stairs without contact.<br>
+                            <a id="badge" href= "https://apps.apple.com/us/app/up-stairs/id1559373861"> <img id="Badge" src="Imgs/Apple Badge.png"  width="130" height="40"/></a>  <a href= ""> <img src="Imgs/Google Play Badge.png" width="130" height="40"/></a>
                             <div id="stairstitle">
                               <span><strong>UP-STAIRS</strong></span> 
                             </div>
-                            <!--<div class="centertoggle"><button  style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br> -->                  
+                            <div class="centertoggle"><button id="upMore" onclick="Stairs()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br>
+                            <div id ="Demo" style="display: none;"> <video id="stairsvideo" width="200" controls autoplay loop src="Videos/Up-Stairs Commercial.mp4"></video></div> 
+                            <div class="centertoggle" ><button id="upLess" onclick="Stairs()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>       
+                            
+                            <script>
+                                
+                              function Stairs()
+                              {
+                                var upmore = document.getElementById("upMore");
+                                var upless = document.getElementById("upLess");
+                                var upcom = document.getElementById("Demo");
+                                var vid = document.getElementById("stairsvideo");
+                                var minicom = document.getElementById("Mini Launch Commercial");
+                                var neoncom = document.getElementById("Commercial");
+                                var minivid = document.getElementById("minivideo");
+                                var minimore = document.getElementById("Launch");
+                                var miniless = document.getElementById("miniLess");
+                                var neonmore = document.getElementById("neonMore");
+                                var neonless = document.getElementById("neonLess");
+                                  if(upcom.style.display === "none")
+                                  {
+                                    upcom.style.display = "block";
+                                    upmore.style.display = "none";
+                                    upless.style.display = "block";
+                                    vid.play();
+                                    minicom.style.display = "none";
+                                    minimore.style.display = "block";
+                                    miniless.style.display = "none";
+                                    minivid.pause;
+                                    neoncom.style.display = "none";
+                                    neonmore.style.display = "block";
+                                    neonless.style.display = "none";
+                                  }
+                                  else
+                                  {
+                                    upcom.style.display = "none";
+                                    upmore.style.display = "block";
+                                    upless.style.display = "none";
+                                    vid.pause();
+                                  }
+                              }
+                            </script>
                             </div>
                             
-
                             <p class="separate"></p><br><br>
                     
                                  <div style="text-align:center" class="p">

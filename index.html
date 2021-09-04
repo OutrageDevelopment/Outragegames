@@ -43,23 +43,30 @@
                                    <span><strong>NEON DOTS</strong></span> 
                               </div>
                               <div class="centertoggle"><button id="neonMore" onclick="ForNeon()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div>
-                              <br><div id ="Commercial" style="display: none;"> <video id="video" width="320" controls autoplay loop src="Videos/Neon Dots Commercial.mp4"></video></div>
+                              <br><div id ="Neon Dots Commercial" style="display: none;"> <video id="NDC" width="320" controls autoplay loop src="Videos/Neon Dots Commercial.mp4"></video></div>
                               <div class="centertoggle"><button id="neonLess" onclick="ForNeon()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>
 
                               <script>
                                 
                                 function ForNeon()
                                 {
-                                  var neoncom = document.getElementById("Commercial");
-                                  var minicom = document.getElementById("Mini Launch Commercial");
-                                  var vid = document.getElementById("video");
+                                  var neoncom = document.getElementById("Neon Dots Commercial");
+                                  
+                                  var vid = document.getElementById("NDC");
                                   var neonmore = document.getElementById("neonMore");
                                   var neonless = document.getElementById("neonLess");
-                                  var minimore = document.getElementById("Launch");
+                                  var minimore = document.getElementById("minimore");
                                   var miniless = document.getElementById("miniLess");
+                                  var minivid = document.getElementById("MLC");
+                                  var minicom = document.getElementById("Mini Launch Commercial");
                                   var upmore = document.getElementById("upMore");
                                   var upless = document.getElementById("upLess");
+                                  var upvid = document.getElementById("UPC");
                                   var upcom = document.getElementById("Demo");
+                                  var switchmore = document.getElementById("switchMore");
+                                  var switchless = document.getElementById("switchLess");
+                                  var switchvid = document.getElementById("SBC");
+                                  var switchcom = document.getElementById("Switch Blade Commercial");
                                     if(neoncom.style.display === "none")
                                     {
                                       neoncom.style.display = "block";
@@ -69,9 +76,15 @@
                                       minicom.style.display = "none";
                                       minimore.style.display = "block";
                                       miniless.style.display = "none";
+                                      minivid.pause;
                                       upcom.style.display = "none";
                                       upmore.style.display = "block";
                                       upless.style.display = "none";
+                                      upvid.pause;
+                                      switchcom.style.display = "none";
+                                      switchmore.style.display = "block";
+                                      switchless.style.display = "none";
+                                      switchvid.pause;
                                     }
                                     else
                                     {
@@ -94,22 +107,28 @@
                               <div id="minititle">
                                 <span><strong>MINI LAUNCH</strong></span> 
                               </div>  
-                              <div class="centertoggle"><button id="Launch" onclick="Launch()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br>
-                              <div id ="Mini Launch Commercial" style="display: none;"> <video id="minivideo" width="200" controls autoplay loop src="Videos/Mini Launch Commercial 2.mp4"></video></div>
+                              <div class="centertoggle"><button id="minimore" onclick="Launch()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br>
+                              <div id ="Mini Launch Commercial" style="display: none;"> <video id="MLC" width="200" controls autoplay loop src="Videos/Mini Launch Commercial 2.mp4"></video></div>
                               <div class="centertoggle" ><button id="miniLess" onclick="Launch()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>
                               <script>
                                 function Launch()
                                 {
                                   var minicom = document.getElementById("Mini Launch Commercial");
-                                  var neoncom = document.getElementById("Commercial");
-                                  var vid = document.getElementById("minivideo");
-                                  var minimore = document.getElementById("Launch");
+                                  var vid = document.getElementById("MLC");
+                                  var minimore = document.getElementById("minimore");
                                   var miniless = document.getElementById("miniLess");
+                                  var neoncom = document.getElementById("Neon Dots Commercial");
+                                  var neonvid = document.getElementById("NDC");
                                   var neonmore = document.getElementById("neonMore");
                                   var neonless = document.getElementById("neonLess");
                                   var upmore = document.getElementById("upMore");
                                   var upless = document.getElementById("upLess");
+                                  var upvid = document.getElementById("UPC");
                                   var upcom = document.getElementById("Demo");
+                                  var switchmore = document.getElementById("switchMore");
+                                  var switchless = document.getElementById("switchLess");
+                                  var switchvid = document.getElementById("SBC");
+                                  var switchcom = document.getElementById("Switch Blade Commercial");
                                     if(minicom.style.display === "none")
                                     {
                                       minicom.style.display = "block";
@@ -119,9 +138,15 @@
                                       neoncom.style.display = "none";
                                       neonmore.style.display = "block";
                                       neonless.style.display = "none";
+                                      neonvid.pause;
                                       upcom.style.display = "none";
                                       upmore.style.display = "block";
                                       upless.style.display = "none";
+                                      upvid.pause;
+                                      switchcom.style.display = "none";
+                                      switchmore.style.display = "block";
+                                      switchless.style.display = "none";
+                                      switchvid.pause;
                                     }
                                     else
                                     {
@@ -145,7 +170,7 @@
                               <span><strong>UP-STAIRS</strong></span> 
                             </div>
                             <div class="centertoggle"><button id="upMore" onclick="Stairs()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br>
-                            <div id ="Demo" style="display: none;"> <video id="stairsvideo" width="200" controls autoplay loop src="Videos/Up-Stairs Commercial.mp4"></video></div> 
+                            <div id ="Demo" style="display: none;"> <video id="USC" width="200" controls autoplay loop src="Videos/Up-Stairs Commercial.mp4"></video></div> 
                             <div class="centertoggle" ><button id="upLess" onclick="Stairs()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>       
                             
                             <script>
@@ -155,14 +180,19 @@
                                 var upmore = document.getElementById("upMore");
                                 var upless = document.getElementById("upLess");
                                 var upcom = document.getElementById("Demo");
-                                var vid = document.getElementById("stairsvideo");
+                                var vid = document.getElementById("USC");
                                 var minicom = document.getElementById("Mini Launch Commercial");
-                                var neoncom = document.getElementById("Commercial");
-                                var minivid = document.getElementById("minivideo");
-                                var minimore = document.getElementById("Launch");
+                                var minivid = document.getElementById("MLC");
+                                var minimore = document.getElementById("minimore");
                                 var miniless = document.getElementById("miniLess");
+                                var neoncom = document.getElementById("Neon Dots Commercial");
+                                var neonvid = document.getElementById("NDC");
                                 var neonmore = document.getElementById("neonMore");
                                 var neonless = document.getElementById("neonLess");
+                                var switchmore = document.getElementById("switchMore");
+                                var switchless = document.getElementById("switchLess");
+                                var switchvid = document.getElementById("SBC");
+                                var switchcom = document.getElementById("Switch Blade Commercial");
                                   if(upcom.style.display === "none")
                                   {
                                     upcom.style.display = "block";
@@ -176,6 +206,11 @@
                                     neoncom.style.display = "none";
                                     neonmore.style.display = "block";
                                     neonless.style.display = "none";
+                                    neonvid.pause;
+                                    switchcom.style.display = "none";
+                                    switchmore.style.display = "block";
+                                    switchless.style.display = "none";
+                                    switchvid.pause;
                                   }
                                   else
                                   {
@@ -194,14 +229,63 @@
 
                             <div style="text-align:center">
                             <img src="Imgs/Switch Blade (Website).PNG" width="83" height="83" class="neon"/> A Fun-Sized Retro Game You'll Love! A Comical Classic.<br> Hope We Make You Smile.<br>
-                            <a id="badge" href= "https://apps.apple.com/us/app/switch-blade/id1582253303"> <img id="Badge" src="Imgs/Apple Badge.png"  width="130" height="40"/></a>  <a href= ""> <!--<img src="Imgs/Google Play Badge.png" width="130" height="40"/>--></a>
+                            <a id="badge" href= "https://apps.apple.com/us/app/switch-blade/id1582253303"> <img id="Badge" src="Imgs/Apple Badge.png"  width="130" height="40"/></a>  <a> <img src="Imgs/Google Play Badge NA.png" width="130" height="40"/></a>
                             <div id="Switchtitle">
                               <span><strong>SWITCH BLADE</strong></span> 
                             </div>
-                            <div class="centertoggle"><button id="" onclick="" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br>
-                            <div id ="" style="display: none;"> <video id="" width="200" controls autoplay loop src=></video></div> 
-                            <div class="centertoggle" ><button id="upLess" onclick="" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>
-                    
+                            <div class="centertoggle"><button id="switchMore" onclick="Switch()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br>
+                            <div id ="Switch Blade Commercial" style="display: none;"> <video id="SBC" width="200" controls autoplay loop src="Videos/Switch Blade Commercial.mp4"></video></div> 
+                            <div class="centertoggle" ><button id="switchLess" onclick="Switch()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>
+                            
+                            <script>
+                                
+                              function Switch()
+                              {
+                                var switchmore = document.getElementById("switchMore");
+                                var switchless = document.getElementById("switchLess");
+                                var switchcom = document.getElementById("Switch Blade Commercial");
+                                var vid = document.getElementById("SBC");
+                                var upmore = document.getElementById("upMore");
+                                var upless = document.getElementById("upLess");
+                                var upvid = document.getElementById("UPC");
+                                var upcom = document.getElementById("Demo");
+                                var minicom = document.getElementById("Mini Launch Commercial");
+                                var minivid = document.getElementById("MLC");
+                                var minimore = document.getElementById("minimore");
+                                var miniless = document.getElementById("miniLess");
+                                var neoncom = document.getElementById("Neon Dots Commercial");
+                                var neonvid = document.getElementById("NDC");
+                                var neonmore = document.getElementById("neonMore");
+                                var neonless = document.getElementById("neonLess");
+                                  if(switchcom.style.display === "none")
+                                  {
+                                    switchcom.style.display = "block";
+                                    switchmore.style.display = "none";
+                                    switchless.style.display = "block";
+                                    vid.play();
+                                    upcom.style.display = "none";
+                                    upmore.style.display = "block";
+                                    upless.style.display = "none";
+                                    upvid.pause;
+                                    minicom.style.display = "none";
+                                    minimore.style.display = "block";
+                                    miniless.style.display = "none";
+                                    minivid.pause;
+                                    neoncom.style.display = "none";
+                                    neonmore.style.display = "block";
+                                    neonless.style.display = "none";
+                                    neonvid.pause;
+                                  }
+                                  else
+                                  {
+                                    switchcom.style.display = "none";
+                                    switchmore.style.display = "block";
+                                    switchless.style.display = "none";
+                                    vid.pause();
+                                  }
+                              }
+                            </script>
+
                             <p class="separate"></p><br>
 
 

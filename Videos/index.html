@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Welcome
+    </title>
+    <head>
+            <link rel="icon" href = "Imgs/Website Logo.png">
+            <link rel="stylesheet" type="text/css" href="Info.css" />
+            <style type="text/css">
+                h1{text-align: center}
+                footer{text-align: center}
+                footer{text-emphasis-color: whitesmoke}
+                p{text-align: center} 
+                h2{text-align: center}
+                .centertoggle {
+                  margin-left: auto;
+                  margin-right: auto;
+                  width: 10%;
+                        }
+            </style>
+
+                <style>   
+                
+                </style>
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    </head>
+    
+     <div id="page-container">
+            <div>
+                 <!-- all other page content -->
+                 <header class="center">
+                   <img src="Imgs/Website Logo.png" class="center"/>
+                     </header><br>
+                      <body>
+                        <h2>WELCOME</h2><br>
+                    
+                        <p class="separate"></p><br>
+                    
+                          <div style="text-align: center">
+                            <img src="Imgs/Website Neon Dots.PNG" width="80" height="80" class="neon"/> Enjoy a Non-Violent shooting game with neon colors. <br>Do you think you can survive? <br>
+                              <a id="badge" href= "https://apps.apple.com/us/app/neon-dots/id1462386568"><img id="Badge" src="Imgs/Apple Badge.png"  width="130" height="40"/></a> <a href= "https://play.google.com/store/apps/details?id=com.atomX.NeonDots"> <img src="Imgs/Google Play Badge.png" width="130" height="40"/></a>
+                              <div id="neontitle">
+                                   <span><strong>NEON DOTS</strong></span> 
+                              </div>
+                              <div class="centertoggle"><button id="neonMore" onclick="ForNeon()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div>
+                              <br><div id ="Neon Dots Commercial" style="display: none;"> <video id="NDC" width="320" controls autoplay loop src="Videos/Neon Dots Commercial.mp4"></video></div>
+                              <div class="centertoggle"><button id="neonLess" onclick="ForNeon()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>
+
+                              <script>
+                                
+                                function ForNeon()
+                                {
+                                  var neoncom = document.getElementById("Neon Dots Commercial");
+                                  
+                                  var vid = document.getElementById("NDC");
+                                  var neonmore = document.getElementById("neonMore");
+                                  var neonless = document.getElementById("neonLess");
+                                  var minimore = document.getElementById("minimore");
+                                  var miniless = document.getElementById("miniLess");
+                                  var minivid = document.getElementById("MLC");
+                                  var minicom = document.getElementById("Mini Launch Commercial");
+                                  var upmore = document.getElementById("upMore");
+                                  var upless = document.getElementById("upLess");
+                                  var upvid = document.getElementById("USC");
+                                  var upcom = document.getElementById("Demo");
+                                  var switchmore = document.getElementById("switchMore");
+                                  var switchless = document.getElementById("switchLess");
+                                  var switchvid = document.getElementById("SBC");
+                                  var switchcom = document.getElementById("Switch Blade Commercial");
+                                    if(neoncom.style.display === "none")
+                                    {
+                                      neoncom.style.display = "block";
+                                      neonmore.style.display = "none";
+                                      neonless.style.display = "block";
+                                      vid.play();
+                                      minicom.style.display = "none";
+                                      minimore.style.display = "block";
+                                      miniless.style.display = "none";
+                                      minivid.pause;
+                                      upcom.style.display = "none";
+                                      upmore.style.display = "block";
+                                      upless.style.display = "none";
+                                      upvid.pause;
+                                      switchcom.style.display = "none";
+                                      switchmore.style.display = "block";
+                                      switchless.style.display = "none";
+                                      switchvid.pause;
+                                    }
+                                    else
+                                    {
+                                      neoncom.style.display = "none";
+                                      neonmore.style.display = "block";
+                                      neonless.style.display = "none";
+                                      vid.pause();
+                                    }
+                                }
+                              </script>
+                            </div>
+                    
+                             <p class="separate"></p><br><br>
+
+                             <p class="separate"></p><br>
+
+                             <div style="text-align: center">
+                              <img src="Imgs/Mini Launch (Website).png" width="83" height="83" class="neon"/> Enjoy this challenging Pong-Like game. Launching has<br>never been this fun!<br>  
+                              <a id="badge" href= "https://apps.apple.com/us/app/mini-launch/id1561795159"> <img id="Badge" src="Imgs/Apple Badge.png"  width="130" height="40"/></a>  <a href= "https://play.google.com/store/apps/details?id=com.atomX.MiniLaunch"> <img src="Imgs/Google Play Badge.png" width="130" height="40"/></a>
+                              <div id="minititle">
+                                <span><strong>MINI LAUNCH</strong></span> 
+                              </div>  
+                              <div class="centertoggle"><button id="minimore" onclick="Launch()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br>
+                              <div id ="Mini Launch Commercial" style="display: none;"> <video id="MLC" width="200" controls autoplay loop src="Videos/Mini Launch Commercial 2.mp4"></video></div>
+                              <div class="centertoggle" ><button id="miniLess" onclick="Launch()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>
+                              <script>
+                                function Launch()
+                                {
+                                  var minicom = document.getElementById("Mini Launch Commercial");
+                                  var vid = document.getElementById("MLC");
+                                  var minimore = document.getElementById("minimore");
+                                  var miniless = document.getElementById("miniLess");
+                                  var neoncom = document.getElementById("Neon Dots Commercial");
+                                  var neonvid = document.getElementById("NDC");
+                                  var neonmore = document.getElementById("neonMore");
+                                  var neonless = document.getElementById("neonLess");
+                                  var upmore = document.getElementById("upMore");
+                                  var upless = document.getElementById("upLess");
+                                  var upvid = document.getElementById("USC");
+                                  var upcom = document.getElementById("Demo");
+                                  var switchmore = document.getElementById("switchMore");
+                                  var switchless = document.getElementById("switchLess");
+                                  var switchvid = document.getElementById("SBC");
+                                  var switchcom = document.getElementById("Switch Blade Commercial");
+                                    if(minicom.style.display === "none")
+                                    {
+                                      minicom.style.display = "block";
+                                      minimore.style.display = "none";
+                                      miniless.style.display = "block";
+                                      vid.play();
+                                      neoncom.style.display = "none";
+                                      neonmore.style.display = "block";
+                                      neonless.style.display = "none";
+                                      neonvid.pause;
+                                      upcom.style.display = "none";
+                                      upmore.style.display = "block";
+                                      upless.style.display = "none";
+                                      upvid.pause;
+                                      switchcom.style.display = "none";
+                                      switchmore.style.display = "block";
+                                      switchless.style.display = "none";
+                                      switchvid.pause;
+                                    }
+                                    else
+                                    {
+                                      minicom.style.display = "none";
+                                      minimore.style.display = "block";
+                                      miniless.style.display = "none";
+                                      vid.pause();
+                                    }
+                                }
+                              </script>
+                            </div>
+
+                            <p class="separate"></p><br><br>
+
+                            <p class="separate"></p><br>
+
+                            <div style="text-align: center">
+                            <img src="Imgs/Up-Stairs Icon (Website).png" width="83" height="83" class="neon"/> Stairway to heaven or a knockout? Make your way up the <br>stairs without contact.<br>
+                            <a id="badge" href= "https://apps.apple.com/us/app/up-stairs/id1559373861"> <img id="Badge" src="Imgs/Apple Badge.png"  width="130" height="40"/></a>  <a href= "https://play.google.com/store/apps/details?id=com.atomX.UpStairs"> <img src="Imgs/Google Play Badge.png" width="130" height="40"/></a>
+                            <div id="stairstitle">
+                              <span><strong>UP-STAIRS</strong></span> 
+                            </div>
+                            <div class="centertoggle"><button id="upMore" onclick="Stairs()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br>
+                            <div id ="Demo" style="display: none;"> <video id="USC" width="200" controls autoplay loop src="Videos/Up-Stairs Commercial.mp4"></video></div> 
+                            <div class="centertoggle" ><button id="upLess" onclick="Stairs()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>       
+                            
+                            <script>
+                                
+                              function Stairs()
+                              {
+                                var upmore = document.getElementById("upMore");
+                                var upless = document.getElementById("upLess");
+                                var upcom = document.getElementById("Demo");
+                                var vid = document.getElementById("USC");
+                                var minicom = document.getElementById("Mini Launch Commercial");
+                                var minivid = document.getElementById("MLC");
+                                var minimore = document.getElementById("minimore");
+                                var miniless = document.getElementById("miniLess");
+                                var neoncom = document.getElementById("Neon Dots Commercial");
+                                var neonvid = document.getElementById("NDC");
+                                var neonmore = document.getElementById("neonMore");
+                                var neonless = document.getElementById("neonLess");
+                                var switchmore = document.getElementById("switchMore");
+                                var switchless = document.getElementById("switchLess");
+                                var switchvid = document.getElementById("SBC");
+                                var switchcom = document.getElementById("Switch Blade Commercial");
+                                  if(upcom.style.display === "none")
+                                  {
+                                    upcom.style.display = "block";
+                                    upmore.style.display = "none";
+                                    upless.style.display = "block";
+                                    vid.play();
+                                    minicom.style.display = "none";
+                                    minimore.style.display = "block";
+                                    miniless.style.display = "none";
+                                    minivid.pause;
+                                    neoncom.style.display = "none";
+                                    neonmore.style.display = "block";
+                                    neonless.style.display = "none";
+                                    neonvid.pause;
+                                    switchcom.style.display = "none";
+                                    switchmore.style.display = "block";
+                                    switchless.style.display = "none";
+                                    switchvid.pause;
+                                  }
+                                  else
+                                  {
+                                    upcom.style.display = "none";
+                                    upmore.style.display = "block";
+                                    upless.style.display = "none";
+                                    vid.pause();
+                                  }
+                              }
+                            </script>
+                            </div>
+                            
+                            <p class="separate"></p><br><br>
+
+                            <p class="separate"></p><br>
+
+                            <div style="text-align:center">
+                            <img src="Imgs/Switch Blade (Website).PNG" width="83" height="83" class="neon"/> A Fun-Sized Retro Game You'll Love! A Comical Classic.<br> Hope We Make You Smile.<br>
+                            <a id="badge" href= "https://apps.apple.com/us/app/switch-blade/id1582253303"> <img id="Badge" src="Imgs/Apple Badge.png"  width="130" height="40"/></a>  <a> <img src="Imgs/Google Play Badge NA.png" width="130" height="40"/></a>
+                            <div id="Switchtitle">
+                              <span><strong>SWITCH BLADE</strong></span> 
+                            </div>
+                            <div class="centertoggle"><button id="switchMore" onclick="Switch()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br>
+                            <div id ="Switch Blade Commercial" style="display: none;"> <video id="SBC" width="200" controls autoplay loop src="Videos/Switch Blade Commercial.mp4"></video></div> 
+                            <div class="centertoggle" ><button id="switchLess" onclick="Switch()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>
+                            
+                            <script>
+                                
+                              function Switch()
+                              {
+                                var switchmore = document.getElementById("switchMore");
+                                var switchless = document.getElementById("switchLess");
+                                var switchcom = document.getElementById("Switch Blade Commercial");
+                                var vid = document.getElementById("SBC");
+                                var upmore = document.getElementById("upMore");
+                                var upless = document.getElementById("upLess");
+                                var upvid = document.getElementById("USC");
+                                var upcom = document.getElementById("Demo");
+                                var minicom = document.getElementById("Mini Launch Commercial");
+                                var minivid = document.getElementById("MLC");
+                                var minimore = document.getElementById("minimore");
+                                var miniless = document.getElementById("miniLess");
+                                var neoncom = document.getElementById("Neon Dots Commercial");
+                                var neonvid = document.getElementById("NDC");
+                                var neonmore = document.getElementById("neonMore");
+                                var neonless = document.getElementById("neonLess");
+                                  if(switchcom.style.display === "none")
+                                  {
+                                    switchcom.style.display = "block";
+                                    switchmore.style.display = "none";
+                                    switchless.style.display = "block";
+                                    vid.play();
+                                    upcom.style.display = "none";
+                                    upmore.style.display = "block";
+                                    upless.style.display = "none";
+                                    upvid.pause;
+                                    minicom.style.display = "none";
+                                    minimore.style.display = "block";
+                                    miniless.style.display = "none";
+                                    minivid.pause;
+                                    neoncom.style.display = "none";
+                                    neonmore.style.display = "block";
+                                    neonless.style.display = "none";
+                                    neonvid.pause;
+                                  }
+                                  else
+                                  {
+                                    switchcom.style.display = "none";
+                                    switchmore.style.display = "block";
+                                    switchless.style.display = "none";
+                                    vid.pause();
+                                  }
+                              }
+                            </script>
+
+                            <p class="separate"></p><br>
+
+
+                                 <div style="text-align:center" class="p">
+                                        <h2>ABOUT</h2>
+                                           <p style="font-size:17px" >
+                                               atomX is a internet based game development company. <br> We create & publish games for mobile platforms. Our <br> games are child-friendly, exciting, and fun to play <br> for all ages.<br>
+                                               <br>
+                                               Support Email: Contact@atomxgames.com <br>
+                                                <br>
+                                                 Thank You For Your Visit.<br>
+                                                <div><b><a href="Privacy-Policy.html">PRIVACY POLICY</b></a></div>
+                                           </p>  
+                                </div>
+                                <br>
+                            <p>
+                                  <div style="text-align: center">
+                                     <a href="https://twitter.com/EssexStann?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @EssexStann</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                  </div>
+                             </p>
+                    </div><br>
+                    
+                    <footer id="footer"> 
+                            <p>&COPY; 2019 - 2021 atomX LLC | All Rights Reserved.</p>
+                    </footer>
+                  </div>    
+        </body>   
+</html>

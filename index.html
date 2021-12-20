@@ -67,6 +67,10 @@
                                   var switchless = document.getElementById("switchLess");
                                   var switchvid = document.getElementById("SBC");
                                   var switchcom = document.getElementById("Switch Blade Commercial");
+                                  var blockmore = document.getElementById("blockmore");
+                                  var blockless = document.getElementById("blockless");
+                                  var blockcom = document.getElementById("Row Blocks Commercial");
+                                  var blockvid = document.getElementById("RBC");
                                     if(neoncom.style.display === "none")
                                     {
                                       neoncom.style.display = "block";
@@ -85,6 +89,10 @@
                                       switchmore.style.display = "block";
                                       switchless.style.display = "none";
                                       switchvid.pause;
+                                      blockcom.style.display = "none"
+                                      blockmore.style.display = "block"
+                                      blockless.style.display = "none"
+                                      blockvid.pause;
                                     }
                                     else
                                     {
@@ -129,6 +137,10 @@
                                   var switchless = document.getElementById("switchLess");
                                   var switchvid = document.getElementById("SBC");
                                   var switchcom = document.getElementById("Switch Blade Commercial");
+                                  var blockmore = document.getElementById("blockmore");
+                                  var blockless = document.getElementById("blockless");
+                                  var blockcom = document.getElementById("Row Blocks Commercial");
+                                  var blockvid = document.getElementById("RBC");
                                     if(minicom.style.display === "none")
                                     {
                                       minicom.style.display = "block";
@@ -147,6 +159,10 @@
                                       switchmore.style.display = "block";
                                       switchless.style.display = "none";
                                       switchvid.pause;
+                                      blockcom.style.display = "none"
+                                      blockmore.style.display = "block"
+                                      blockless.style.display = "none"
+                                      blockvid.pause;
                                     }
                                     else
                                     {
@@ -193,6 +209,10 @@
                                 var switchless = document.getElementById("switchLess");
                                 var switchvid = document.getElementById("SBC");
                                 var switchcom = document.getElementById("Switch Blade Commercial");
+                                var blockmore = document.getElementById("blockmore");
+                                var blockless = document.getElementById("blockless");
+                                var blockcom = document.getElementById("Row Blocks Commercial");
+                                var blockvid = document.getElementById("RBC");
                                   if(upcom.style.display === "none")
                                   {
                                     upcom.style.display = "block";
@@ -211,6 +231,10 @@
                                     switchmore.style.display = "block";
                                     switchless.style.display = "none";
                                     switchvid.pause;
+                                    blockcom.style.display = "none"
+                                    blockmore.style.display = "block"
+                                    blockless.style.display = "none"
+                                    blockvid.pause;
                                   }
                                   else
                                   {
@@ -245,6 +269,10 @@
                                 var switchless = document.getElementById("switchLess");
                                 var switchcom = document.getElementById("Switch Blade Commercial");
                                 var vid = document.getElementById("SBC");
+                                var blockmore = document.getElementById("blockmore");
+                                var blockless = document.getElementById("blockless");
+                                var blockcom = document.getElementById("Row Blocks Commercial");
+                                var blockvid = document.getElementById("RBC");
                                 var upmore = document.getElementById("upMore");
                                 var upless = document.getElementById("upLess");
                                 var upvid = document.getElementById("USC");
@@ -263,6 +291,10 @@
                                     switchmore.style.display = "none";
                                     switchless.style.display = "block";
                                     vid.play();
+                                    blockcom.style.display = "none"
+                                    blockmore.style.display = "block"
+                                    blockless.style.display = "none"
+                                    blockvid.pause;
                                     upcom.style.display = "none";
                                     upmore.style.display = "block";
                                     upless.style.display = "none";
@@ -287,6 +319,79 @@
                             </script>
 
                             <p class="separate"></p><br>
+
+                            <p class="separate"></p><br>
+
+                            <div style="text-align: center">
+                            <img src="Imgs/Row Blocks Icon(Website).PNG" width="83" height="83" class="neon"/> Slither your way to the targets by Swiping in a Direction. <br> Avoid contact with your trail.<br>
+                            <a id="badge" href= "https://apps.apple.com/us/app/row-blocks/id1600778905"> <img id="Badge" src="Imgs/Apple Badge.png"  width="130" height="40"/></a>  <a href= ""> <img src="Imgs/Google Play Badge.png" width="130" height="40"/></a>
+                            <div id="blockstitle">
+                              <span><strong>ROW BLOCKS</strong></span> 
+                            </div>
+                            <div class="centertoggle"><button id="blockmore" onclick="Blocks()" style="text-align: center"> <strong>More</strong> <img src="Imgs/down arrow.png" width="12" height="8"/></button></div><br>
+                            <div id ="Row Blocks Commercial" style="display: none;"> <video id="RBC" width="200" controls autoplay loop src="Videos/Row Blocks Commercial.mp4"></video></div> 
+                            <div class="centertoggle" ><button id="blockless" onclick="Blocks()" style="text-align: center; display: none;" > <strong>Less</strong> <img src="Imgs/up arrow.png" width="12" height="8"/></button></div>       
+                            
+                            <script>
+                                
+                              function Blocks()
+                              {
+                                var blockmore = document.getElementById("blockmore");
+                                var blockless = document.getElementById("blockless");
+                                var blockcom = document.getElementById("Row Blocks Commercial");
+                                var upmore = document.getElementById("upMore");
+                                var upless = document.getElementById("upLess");
+                                var upcom = document.getElementById("Demo");
+                                var upvid = document.getElementById("USC");
+                                var vid = document.getElementById("RBC");
+                                var minicom = document.getElementById("Mini Launch Commercial");
+                                var minivid = document.getElementById("MLC");
+                                var minimore = document.getElementById("minimore");
+                                var miniless = document.getElementById("miniLess");
+                                var neoncom = document.getElementById("Neon Dots Commercial");
+                                var neonvid = document.getElementById("NDC");
+                                var neonmore = document.getElementById("neonMore");
+                                var neonless = document.getElementById("neonLess");
+                                var switchmore = document.getElementById("switchMore");
+                                var switchless = document.getElementById("switchLess");
+                                var switchvid = document.getElementById("SBC");
+                                var switchcom = document.getElementById("Switch Blade Commercial");
+                                  if(blockcom.style.display === "none")
+                                  {
+                                    blockcom.style.display = "block"
+                                    blockmore.style.display = "none"
+                                    blockless.style.display = "block"
+                                    vid.play();
+                                    minicom.style.display = "none";
+                                    minimore.style.display = "block";
+                                    miniless.style.display = "none";
+                                    minivid.pause;
+                                    neoncom.style.display = "none";
+                                    neonmore.style.display = "block";
+                                    neonless.style.display = "none";
+                                    neonvid.pause;
+                                    switchcom.style.display = "none";
+                                    switchmore.style.display = "block";
+                                    switchless.style.display = "none";
+                                    switchvid.pause;
+                                    upcom.style.display = "none";
+                                    upmore.style.display = "block";
+                                    upless.style.display = "none";
+                                    upvid.pause();
+
+                                  }
+                                  else
+                                  {
+                                    blockcom.style.display = "none"
+                                    blockmore.style.display = "block"
+                                    blockless.style.display = "none"
+                                    vid.pause();
+                                  }
+                              }
+                            </script>
+                            </div>
+                            
+                            <p class="separate"></p><br><br>
 
 
                                  <div style="text-align:center" class="p">

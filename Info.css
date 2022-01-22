@@ -49,15 +49,15 @@
 
 #badge{ margin-left: -2px; }
 
-#neontitle{display: block; font-size: 11px;  margin-right: 44%;}
+#neontitle{display: block; font-size: 12px;  margin-right: 48%;}
 
-#minititle{display: block; font-size: 11px;  margin-right: 45%;}
+#minititle{display: block; font-size: 12px;  margin-right: 49%;}
 
-#stairstitle{display: block; font-size: 12px;  margin-right: 47%;}
+#stairstitle{display: block; font-size: 12px;  margin-right: 52%;}
 
-#Switchtitle{display: block; font-size: 11px;  margin-right: 47%;}
+#Switchtitle{display: block; font-size: 11px;  margin-right: 50%;}
 
-#blockstitle{display: block; font-size: 11px;  margin-right: 46%;}
+#blockstitle{display: block; font-size: 11px;  margin-right: 50%;}
 
 #SwitchPic{position: relative; left: -17px;}
 
@@ -65,7 +65,7 @@
 
 .forindex{position: relative; left:45%; bottom: -78px; z-index:10;}
   
-.neon {margin-bottom:-8%; margin-right: 0.5%;}
+.neon {margin-bottom:-8%; margin-right: 0.5%; font-family: Arial, Helvetica, sans-serif;}
 
 .privacybox{border: 2px solid black; bottom: -10px; position: relative; box-sizing: border-box; width: 100%; left: 0%;}
 

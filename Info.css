@@ -53,7 +53,7 @@
 
 #minititle{display: block; font-size: 12px;  margin-right: 49%;}
 
-#stairstitle{display: block; font-size: 12px;  margin-right: 52%;}
+#stairstitle{display: block; font-size: 12px;  margin-right: 50%;}
 
 #Switchtitle{display: block; font-size: 11px;  margin-right: 50%;}
 
@@ -65,7 +65,7 @@
 
 .forindex{position: relative; left:45%; bottom: -78px; z-index:10;}
   
-.neon {margin-bottom:-8%; margin-right: 0.5%; font-family: Arial, Helvetica, sans-serif;}
+.neon {margin-bottom:-8%; margin-right: 0.5%;}
 
 .privacybox{border: 2px solid black; bottom: -10px; position: relative; box-sizing: border-box; width: 100%; left: 0%;}
 
@@ -74,4 +74,6 @@
 
 .separate{width: 60%; margin: 0px auto; border-top: 4px solid black; }    
 
-.bottombored{border-bottom: 2px solid black; margin: 0; width: 50%}    
+.bottombored{border-bottom: 2px solid black; margin: 0; width: 50%}   
+
+.font{font-family: Arial, Helvetica, sans-serif;}
